@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    height: 100vh;
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+nav a{
+    margin-left:5px;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+main{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 4;
+}
+
+.nav-title{
+    background-color: white;
+    position: sticky;
+    padding:20px;
+    top: 0;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.main-section p{
+    margin: 20px 0px;
+}
+
+.main-section code{
+    background-color: rgb(233, 229, 229);
+    padding: 10px;
+    margin: 0px 30px;
+}
+
+#main-doc{
+    display:flex;
+    flex-direction: column;
+}
