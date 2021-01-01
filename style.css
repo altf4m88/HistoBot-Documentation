@@ -11,7 +11,6 @@ body{
 nav{
     display: flex;
     flex-direction: column;
-    left: 0;
     height: 100vh;
     flex: 1;
     overflow-y: scroll;
@@ -75,4 +74,30 @@ main{
     padding: 3px;
     background-color: rgb(233, 229, 229);
     border-radius: 10mm;
+}
+
+@media only screen and (max-width: 932px){
+    body{
+        display: inline;
+    }
+    nav{
+        margin: 10px;
+        height: 40vh;
+        border: 1px solid black;
+    }
+    .nav-link{
+        margin-left:0px;
+        font-weight: 400;
+        font-size: 16px;
+        border-bottom: 1px solid black;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    main{
+        height: 55vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        flex: 4;
+    }
 }
