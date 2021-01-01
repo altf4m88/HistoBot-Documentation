@@ -61,7 +61,18 @@ main{
     margin: 0px 30px;
 }
 
+.main-section ul li{
+    margin: 0px 0px 10px 30px;
+}
+
 #main-doc{
     display:flex;
     flex-direction: column;
+}
+
+.pill{
+    font-family: monospace;
+    padding: 3px;
+    background-color: rgb(233, 229, 229);
+    border-radius: 10mm;
 }
