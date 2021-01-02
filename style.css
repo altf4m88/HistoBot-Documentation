@@ -98,6 +98,5 @@ main{
         height: 55vh;
         overflow-y: scroll;
         overflow-x: hidden;
-        flex: 4;
     }
 }

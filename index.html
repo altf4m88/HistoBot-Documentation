@@ -58,7 +58,9 @@
                 <li><span class="pill">today-births</span></li>
                 <li><span class="pill">today-deaths</span></li>
             </ul>
-            <p>The commands return a Discord message embed that contains information about important events, births and deaths that happened today. Syntax :  <span class="pill">|today-{type}</span>. Example: </p>
+            <p>The commands return a Discord message embed that contains information about important events, births and deaths that happened today. Syntax :</p>
+            <code>|today-{type}</code>
+            <p> Example: </p>
             <code>|today-events</code>
         </section>
         <section class="main-section" id="The_search-_Commands">
@@ -69,38 +71,50 @@
                 <li><span class="pill">search-births</span></li>
                 <li><span class="pill">search-deaths</span></li>
             </ul>
-            <p>The command syntax : <span class="pill">|search-{type} {date} {month}</span>. For example:</p>
+            <p>The command syntax :</p> 
+            <code>|search-{type} {date} {month}</code>.
+            <p> For example:</p>
             <code>|search-births 16 5</code>
         </section>
         <section class="main-section" id="history-meme_Command">
             <header><h1>history-meme Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>Just like the command name, this one gives user a history meme. The source of the meme is from a Reddit /r/HistoryMemes. The command syntax is simply:</p>
+            <code>|history-meme</code>
         </section>
         <section class="main-section" id="joke_Command">
             <header><h1>joke Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>This joke command takes 1 argument for the type of joke. Jokes is requested from <a href="https://github.com/15Dkatz/official_joke_api">15Dkatz/official_joke_api</a>. There are 3 types of joke, <span class="pill">general</span> <span class="pill">programming</span> and <span class="pill">knock-knock</span>. The command syntax is:</p>
+            <code>|joke {type}</code>
+            <p>But you can get random jokes from all category by simply send :</p>
+            <code>|joke</code>
         </section>
         <section class="main-section" id="gulag_Command">
             <header><h1>gulag Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>Use this command if you want to send someone to Gulag (just for fun of course). It takes 2 arguments, user mention and reason. Syntax:</p>
+            <code>|gulag @mention {reason}</code>
+            <p>Example</p>
+            <code>|gulag @HistoBot he's a western spy</code>
         </section>
         <section class="main-section" id="medal_Command">
             <header><h1>medal Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>You want to pay respect to your friend for bravery or heroic deeds? Use <span class="pill">|medal</span> command! It takes 2 argument, @mention(or random name) and type. As for the type, HistoBot currently has 4 medal types, <span class="pill">iron-cross</span>,<span class="pill">red-star</span>,<span class="pill">victoria-cross</span> and <span class="pill">medal-of-honor</span>. Syntax:</p>
+            <code>|medal @mention {type}</code>
+            <p>But you can replace the mention with random name. If the name is two words or longer, replace all the spaces with "-". Example:</p>
+            <code>|medal trupper-hans iron-cross</code>
+            <p>You also can give medal to yourself by replacing the name or the mention with "me":</p>
+            <code>|medal me red-star</code>
         </section>
         <section class="main-section" id="say_Command">
             <header><h1>say Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>You can make the bot say something with this command. It takes words to say as the command argument. Syntax: </p>
+            <code>|say {words}</code>
+            <p>Example:</p>
+            <code>|say your kingdom will come!</code>
         </section>
         <section class="main-section" id="shout_Command">
             <header><h1>shout Command</h1></header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi accusamus quia hic saepe nostrum at ipsum obcaecati, modi inventore molestiae illo ducimus quasi error quos molestias repellat veniam beatae doloremque. Corrupti, sint facere sit voluptas praesentium dolorem impedit repudiandae.</p>
-            <code>Lorem ipsum dolor sit amet consectetur.</code>
+            <p>Same as the <span class="pill">say</span> command, but this time all words turns into uppercase (yeah a bit useless since user could use caps lock on previous command). Syntax:</p>
+            <code>|shout {words}</code>
         </section>
         <section class="main-section" id="palindrome_Command">
             <header><h1>palindrome Command</h1></header>
